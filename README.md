@@ -48,8 +48,8 @@ providers and provider 2 is the current one:
 * Provider 3
 
 Upon a send-attempt, if Provider 2 is successful, we do nothing. Otherwise, we
-make the next one, modulo the length of the list, the current while keeping
-track of the last.
+move the current pointer to the next provider, modulo the length of the list,
+while keeping track of the last working provider.
 
 If any provider succeeds, we save the current one as new last. Else if `current
 == last`, all providers failed and we report an error to the user.
