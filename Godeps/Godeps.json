@@ -1,0 +1,37 @@
+{
+	"ImportPath": "github.com/mkj-gram/go_email_service",
+	"GoVersion": "go1.10",
+	"GodepVersion": "v80",
+	"Deps": [
+		{
+			"ImportPath": "github.com/SparkPost/gosparkpost",
+			"Comment": "0.1.0-58-g66d05eb",
+			"Rev": "66d05ebcef9bd91a5130066a45f5ed5a17aa4b5d"
+		},
+		{
+			"ImportPath": "github.com/SparkPost/gosparkpost/events",
+			"Comment": "0.1.0-58-g66d05eb",
+			"Rev": "66d05ebcef9bd91a5130066a45f5ed5a17aa4b5d"
+		},
+		{
+			"ImportPath": "github.com/pkg/errors",
+			"Comment": "v0.8.0-12-g816c908",
+			"Rev": "816c9085562cd7ee03e7f8188a1cfd942858cded"
+		},
+		{
+			"ImportPath": "github.com/sendgrid/rest",
+			"Comment": "v2.4.1",
+			"Rev": "306b9bef57dc36f3435ccfcc08fe6ae2c6920344"
+		},
+		{
+			"ImportPath": "github.com/sendgrid/sendgrid-go",
+			"Comment": "v3.4.1-146-g588320a",
+			"Rev": "588320a743278a1824a54d232a7e9f36df6f6c99"
+		},
+		{
+			"ImportPath": "github.com/sendgrid/sendgrid-go/helpers/mail",
+			"Comment": "v3.4.1-146-g588320a",
+			"Rev": "588320a743278a1824a54d232a7e9f36df6f6c99"
+		}
+	]
+}
