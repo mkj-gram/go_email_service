@@ -66,7 +66,7 @@ been done _manually_ by HTTP-request.
 
 ## Api
 
-The api can be found at http://fast-savannah-21734.herokuapp.com/send and
+The api can be found at http://fast-savannah-21734.herokuapp.com and
 exposes two endpoints:
 
 #### POST: /send 
@@ -103,7 +103,7 @@ The endpoint requires using a specific user, which has to be sent as a Basic
 Authorization Header. In a more realistic example, the user would be validated
 against a database, to obtain a role/right to send emails.
 
-#### /log
+#### GET: /log
 
 To see what's going on, the api provide the /log endpoint, to see the last 1000
 characters of the log. Since logging also logs emails and ip-addresses, the
@@ -135,7 +135,12 @@ curl -H "Authorization: Basic ZWdvOnViZXJjaGFsbGVuZ2U=" http://fast-savannah-217
    nice to track if any of the emails bounced.
 
 ## Dependencies
-github.com/stretchr/testify
-github.com/sendgrid/sendgrid-go
-github.com/SparkPost/gosparkpost
+
+The following dependencies are used in the project.
+
+[http://github.com/stretchr/testify](http://github.com/stretchr/testify)
+
+[http://github.com/sendgrid/sendgrid-go](http://github.com/sendgrid/sendgrid-go)
+
+[http://github.com/SparkPost/gosparkpost](http://github.com/SparkPost/gosparkpost)
 
