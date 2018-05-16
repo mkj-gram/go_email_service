@@ -121,6 +121,8 @@ curl -H "Authorization: Basic c3RhcmxvcmQ6dWJlcmNoYWxsZW5nZQ=="  -H "Content-Typ
 curl -H "Authorization: Basic ZWdvOnViZXJjaGFsbGVuZ2U=" http://fast-savannah-21734.herokuapp.com/log
 ```
 
+**Note** for the sender, you have to specify a @dotnamics.com email, since the providers required a registered domain for sending. 
+
 ## Future Work
 
 1. Adding a database to have multiple users
